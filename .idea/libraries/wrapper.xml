@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="wrapper">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/oshi-master.zip!/oshi-master/.mvn/wrapper" />
+      <root url="jar://$USER_HOME$/Desktop/oshi-master.zip!/oshi-master/oshi-core/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/oshi-master.zip!/oshi-master/oshi-core/src/test/java" />
+      <root url="jar://$USER_HOME$/Desktop/oshi-master.zip!/oshi-master/oshi-demo/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
