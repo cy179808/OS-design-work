@@ -31,20 +31,20 @@ public class ProcessPanel extends OshiJPanel {
     private static final long serialVersionUID = 1L;
 
     private static final String PROCESSES = "进程";
-    private static final String[] COLUMNS = { "进程ID", "父进程ID", "线程", "Cpu占用", "mulative", "VSZ", "RSS", "内存占用",
+    private static final String[] COLUMNS = { "进程ID", "父进程ID", "线程", "Cpu(%)", "mulative", "VSZ", "RSS", "内存（%）",
             "进程名" };
     private static final double[] COLUMN_WIDTH_PERCENT = { 0.07, 0.07, 0.07, 0.07, 0.09, 0.1, 0.1, 0.08, 0.35 };
 
     private transient Map<Integer, OSProcess> priorSnapshotMap = new HashMap<>();
 
     private transient ButtonGroup cpuOption = new ButtonGroup();
-    private transient JRadioButton perProc = new JRadioButton("属于处理器");
-    private transient JRadioButton perSystem = new JRadioButton("属于系统");
+    private transient JRadioButton perProc = new JRadioButton("对于处理器");
+    private transient JRadioButton perSystem = new JRadioButton("对于系统");
 
     private transient ButtonGroup sortOption = new ButtonGroup();
-    private transient JRadioButton cpuButton = new JRadioButton("Cpu占用");
+    private transient JRadioButton cpuButton = new JRadioButton("Cpu占用（%）");
     private transient JRadioButton cumulativeCpuButton = new JRadioButton("Cumulative CPU");
-    private transient JRadioButton memButton = new JRadioButton("内存占用");
+    private transient JRadioButton memButton = new JRadioButton("内存占用（%）");
 
     public ProcessPanel(SystemInfo si) {
         super();

@@ -29,11 +29,11 @@ public class MemoryPanel extends OshiJPanel {
 
     private static final long serialVersionUID = 1L;
 
-    private static final String PHYSICAL_MEMORY = "物理内存";
-    private static final String VIRTUAL_MEMORY = "虚拟内存";
+    private static final String PHYSICAL_MEMORY = "PHYSICAL_MEMORY";
+    private static final String VIRTUAL_MEMORY = "VIRTUAL_MEMORY";
 
-    private static final String USED = "已使用";
-    private static final String AVAILABLE = "未使用";
+    private static final String USED = "used";
+    private static final String AVAILABLE = "available";
 
     public MemoryPanel(SystemInfo si) {
         super();

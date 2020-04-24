@@ -30,8 +30,8 @@ public class FileStorePanel extends OshiJPanel {
 
     private static final long serialVersionUID = 1L;
 
-    private static final String USED = "已使用";
-    private static final String AVAILABLE = "未使用";
+    private static final String USED = "used";
+    private static final String AVAILABLE = "available";
 
     public FileStorePanel(SystemInfo si) {
         super();
